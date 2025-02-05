@@ -55,9 +55,13 @@ main {
     transition: 0.3s ;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
 	body {
 		overflow-x: hidden;
+	}
+
+	main {
+		background-position: top;
 	}
 
 	.nav-list {
